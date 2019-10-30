@@ -9,6 +9,28 @@
 # -----FIZZBUZZ CODE HERE-----
 
 
+def fizzbuzz(num):
+
+    if num % 15 == 0:
+        return 'FIZZBUZZ'
+    elif num % 5 == 0:
+        return 'BUZZ'
+    elif num % 3 == 0:
+        return 'FIZZ'
+    else:
+        return num
+
+
+if __name__ == '__main__':
+
+    list_1to100 = range(1, 100)
+    list_FIZZBUZZ = []
+
+    for i in list_1to100:
+        list_FIZZBUZZ.append(fizzbuzz(i))
+
+    print(list_FIZZBUZZ)
+
 # -----END FIZBUZZ CODE-----
 
 # EXERCISE 2:
