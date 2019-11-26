@@ -1,0 +1,5 @@
+- Read chapter 12 in Clean Code
+
+- Complete coding exercises for week7
+
+- Continue working with Pi-Car
